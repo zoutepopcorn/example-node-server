@@ -2,23 +2,16 @@
 
 ### Getting Started
 
-First we'll install `babel-cli`.
+First we'll install `babel-cli`. Along with some [presets](http://babeljs.io/docs/plugins/#presets).
+
+### install
 
 ```shell
-$ npm install --save-dev babel-cli
+$ npm init
+$ npm install --save-dev babel-cli babel-preset-es2015 babel-preset-stage-2
 ```
 
-Along with some [presets](http://babeljs.io/docs/plugins/#presets).
-
-```shell
-$ npm install --save-dev babel-preset-es2015 babel-preset-stage-2
-```
-
-Then create our server in `index.js`.
-
-```shell
-$ touch index.js
-```
+### index.js
 ```js
 import http from 'http';
 
